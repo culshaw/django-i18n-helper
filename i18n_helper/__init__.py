@@ -9,6 +9,8 @@ import django
 import copy
 import sys
 
+default_app_config = 'i18n_helper.apps.i18nHelperConfig'
+
 # Default values
 DEFAULT_I18N_CLASS = "i18n-helper"
 DEFAULT_I18N_STYLE = "display: inline; background-color: #FAF9A7;"
